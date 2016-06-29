@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/francis_bongiovanni/sinatra-blog/one'
+let g:netrw_dirhist_2='/Users/francis_bongiovanni/sinatra-blog/two/db'
+let g:netrw_dirhist_3='/Users/francis_bongiovanni/sinatra-blog/three'
+let g:netrw_dirhist_4='/Users/francis_bongiovanni/sinatra-blog/one'

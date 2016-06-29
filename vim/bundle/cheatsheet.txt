@@ -1,0 +1,13 @@
+n/N - repeat search
+c - change
+iw - inner word
+i( - inner paren
+i" - inner quotes
+it - inner tag
+. - repeat last change
+
+:sp + name
+:vsp + name
+C-w-HJKL - reorder
+C-w-+-= resize
+z-/zt - top/bottom
