@@ -1,6 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/francis_bongiovanni/.oh-my-zsh
 export hg=/usr/local/bin/hg
+eval "$(chef shell-init zsh)"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -50,7 +51,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git-prompt, vi-mode, rails, alias-tips)
+plugins=(rails alias-tips)
 
 # User configuration
 
@@ -79,7 +80,8 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
+alias e='emacsclient -t'
+alias ec='emacsclient -c'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -104,3 +106,4 @@ export NVM_DIR="/Users/francis_bongiovanni/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH=$PATH:$HOME/bin
 export EDITOR='subl' -w
+export PATH=$PATH:$HOME/bin
